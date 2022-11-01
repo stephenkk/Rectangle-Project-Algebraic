@@ -1,5 +1,6 @@
 package com.rectangle.algebraic;
-
+//This is Side class
+//one more comment
 public class Side {
 	Point p1;
 	Point p2;
