@@ -16,6 +16,15 @@ public class RecsIntersecDriver {
 		Point pnt3 = new Point(35,23);
 		Point pnt4 = new Point(30,15);
 		
+//		Point pt1 = new Point(20,11);
+//		Point pt2 = new Point(30,29);
+//		Point pt3 = new Point(19,35);
+//		Point pt4 = new Point(9,17);
+//
+//		Point pnt1 = new Point(22,18);
+//		Point pnt2 = new Point(25,23);
+//		Point pnt3 = new Point(12,31);
+//		Point pnt4 = new Point(9,26);
 		
 		
 		Side side_1 = new Side(pt1, pt2);
@@ -34,6 +43,7 @@ public class RecsIntersecDriver {
 		Side [] Asides = {side_1, side_2, side_3, side_4};
 		Side [] Bsides = {sideOne, sideTwo, sideThree, sideFour};
 		
+		//nested loop to compare all of the sides of each rectangle to each other
 		System.out.println("Points of Intersection are: ");
 		for (int i = 0; i < Asides.length; i++)
 			for (int j = 0; j < Bsides.length; j++)
@@ -44,16 +54,6 @@ public class RecsIntersecDriver {
 				}
 		
 	
-			
-			
-		
-		
-		//System.out.println(verifyIntersect.sidesIntersect(rectangleA.side2, rectangleB.side2));
-		
-		
-		
-		
-		//System.out.println(calcABC.getIntersectPoint(pt1, pt2, pt3, pt4).x + " " + calcABC.getIntersectPoint(pt1, pt2, pt3, pt4).y);
 	}
 	
 	
